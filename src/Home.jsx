@@ -7,6 +7,7 @@ export default function Home() {
       <BusinessCard
         name="Ezra Cornell"
         email="ezra@cornell.edu"
+        logo = "images/cornell-logo.svg"
       />
 
       <Gallery />
