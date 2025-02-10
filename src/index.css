@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+  background-color: #3d3b40;
+  color: #ffffff;
+}
+
+main {
+  padding: 1em;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card {
+  border-radius: 12px;
+  max-width: 300px;
+  overflow: auto;
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.caption {
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.citation {
+  font-size: 10pt;
+  color: #000000;
+}
