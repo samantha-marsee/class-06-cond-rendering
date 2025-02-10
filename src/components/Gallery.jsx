@@ -28,7 +28,7 @@ export default function Gallery() {
         altText="an AI generated cloud nebulae"
         caption="Cloud nebulae"
         citation="Microsoft Copilot"
-      // color="#9ad2ea"
+        color="#9ad2ea"
       />
       <Card
         imgUri="/images/distant-space.webp"
@@ -50,7 +50,7 @@ export default function Gallery() {
         altText="an AI generated pulsar"
         caption="A pulsar"
         citation="Microsoft Copilot"
-      // color="#d9b5ea"
+        color="#d9b5ea"
       />
       <Card
         imgUri="/images/star-death.webp"
