@@ -12,7 +12,7 @@ export default function BusinessCard({ name, email, logo = undefined}) {
     }
     }>
 
-    {logo ? <img
+    {logo && <img
     src={logo}
     alt="logo"
     style={{
