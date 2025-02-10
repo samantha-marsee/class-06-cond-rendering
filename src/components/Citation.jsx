@@ -1,6 +1,6 @@
-export default function Citation({ citation, align }) {
+export default function Citation({ citation, align = "center"}) {
   return (
-    <p className="citation" style={{ textAlign: align }}>
+    <p className="citation">
       Source: <cite>{citation}</cite>
     </p>
   )
