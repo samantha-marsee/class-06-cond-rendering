@@ -8,18 +8,20 @@ export default function Gallery() {
         altText="an AI generated galaxy"
         caption="A galaxy"
         citation="Microsoft Copilot"
+        color = "white"
       />
       <Card
         imgUri="/images/asteroid.webp"
         altText="an AI generated asteroid"
         caption="An asteroid"
         citation="Microsoft Copilot"
+        color = "beige"
       />
       <Card
         imgUri="/images/black-hole.webp"
         altText="an AI generated black hole"
         citation="Microsoft Copilot"
-      // color="#e58c43"
+        color="#e58c43"
       />
       <Card
         imgUri="/images/cloud-nebulae.webp"
